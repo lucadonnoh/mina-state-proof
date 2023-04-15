@@ -64,6 +64,14 @@ module.exports = async function() {
         libraries : deployedLib,
         log : true,
     })
+
+    const MinaPlaceholderVerifierAddress = (await hre.deployments.get('MinaPlaceholderVerifier')).address
+
+    await deploy('MinaStateBridge', {
+        from: deployer,
+        args: ["0x5FC8d32690cc91D4c39d9d3abcBD16989F875707", MinaPlaceholderVerifierAddress],
+        log: true,
+    })
 }
 
 
