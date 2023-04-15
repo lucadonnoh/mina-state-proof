@@ -1,9 +1,7 @@
-## Other resources
+## ETHGlobal Tokyo Hackathon
 
 - [zkOracle implementation repo](https://github.com/Ferret-san/oracle)
 - [HyperLane deployment repo](https://github.com/lucadonnoh/hyperlane-deploy)
-
-This repository contains In-EVM Mina State verification project. 
 
 ## Dependencies
 
